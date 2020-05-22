@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".lotteryview.LotteryActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_lottery"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <com.zjz.slotmachine.lotteryview.LotteryView
+            android:id="@+id/lottery_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:background="#00ffffff"
+            app:backgroundColor="#ffffff"
+            app:columnCount="5"
+            app:fontColor="#965028"
+            app:fontColor2="#F76F1F"
+            app:fontSize="24sp"
+            app:prizeBackgroundColor="#fff"
+            app:prizeBackgroundColor2="#FFF1CF"
+            app:rowCount="3"
+            app:singleFontSize="16sp"
+            app:subFontSize="12sp" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="btnStart"
+        android:text="开始" />
+</LinearLayout>

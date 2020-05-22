@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tigerview.TigerActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_slot"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/shape_drawable_slot"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.zjz.slotmachine.tigerview.SlotWheelView
+            android:id="@+id/slot1"
+            android:layout_width="44dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="8dp" />
+
+        <com.zjz.slotmachine.tigerview.SlotWheelView
+            android:id="@+id/slot2"
+            android:layout_width="44dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="4dp" />
+
+        <com.zjz.slotmachine.tigerview.SlotWheelView
+            android:id="@+id/slot3"
+            android:layout_width="44dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="8dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:onClick="btnStart"
+        android:text="开始"/>
+</LinearLayout>

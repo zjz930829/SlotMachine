@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LotteryViewAttrs">
+        <attr name="rowCount" format="integer" />
+        <attr name="columnCount" format="integer" />
+        <attr name="fontSize" format="dimension" />
+        <attr name="subFontSize" format="dimension" />
+        <attr name="singleFontSize" format="dimension" />
+        <attr name="fontColor" format="color" />
+        <attr name="fontColor2" format="color" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="prizeBackgroundColor" format="color" />
+        <attr name="prizeBackgroundColor2" format="color" />
+
+
+    </declare-styleable>
+
+</resources>
